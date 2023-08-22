@@ -1,3 +1,28 @@
 body{
     background-color: #fefefe;
 }
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+.pomaranczowy {
+    background-color: #f2ad22;
+}
+
+.czerwony{
+    color: red;
+
+}
+
+p {
+    background-color:aqua !important; /* important kasuje wlasciwości klasy czerwony przypisanej do <p> w htmlu i nadpisuje kolor aqua*/
+}
+
+#szkolenie{
+    background-color: yellowgreen;
+}
