@@ -26,3 +26,12 @@ p {
 #szkolenie{
     background-color: yellowgreen;
 }
+
+.my-article{
+    color: hotpink;
+}
+
+.my-article p{
+    background: #1460AA;
+    color: #fff;
+}
