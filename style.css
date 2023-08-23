@@ -35,3 +35,22 @@ p {
     background: #1460AA;
     color: #fff;
 }
+
+.red-header{
+    color: red;
+}
+.green-header{
+    color: green;
+}
+.blue-header{
+    color: blue;
+}
+.yellow-header{
+    color: yellow;
+}
+.brown-header{
+    color: brown;
+}
+.orange-header{
+    color: orange;
+}
