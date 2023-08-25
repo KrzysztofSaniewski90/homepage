@@ -58,3 +58,35 @@ p {
 .purple-header{
     color: purple;
 }
+
+.navigation
+{
+    padding: 16px;
+    background: #1460AA;
+}
+
+.navigation__link {
+    color: white;
+
+}
+
+.section{
+    background: #dcdcdc;
+    margin-bottom: 16px;
+}
+
+.section__header{
+    color:cadetblue;
+}
+
+.section__header--special{
+    color: tomato;
+}
+
+.section__header{
+    color:cadetblue;
+}
+
+.footer{}
+
+.footer__paragraph{}
