@@ -1,11 +1,17 @@
-*{
+html{
     box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 
 body{
     background-color: #fefefe;
-    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
+
+
 
 main{
     margin: 16px auto;
@@ -29,7 +35,9 @@ h2 {
 }
 
 p {
+    padding: 16px;
     background-color:aqua !important; /* important kasuje wlasciwości klasy czerwony przypisanej do <p> w htmlu i nadpisuje kolor aqua*/
+    line-height: 1.5;
 }
 
 #szkolenie{
@@ -133,6 +141,11 @@ a.navigation__link:hover{
     background-color: antiquewhite;
 }
 
+.page-header__heading{
+font-size: 32px;
+letter-spacing: -0.2px;
+}
+
 .page-header__heading--js{
     color:darkblue;
     align-items: baseline;
@@ -161,8 +174,12 @@ a.navigation__link:hover{
 
 }
 
-
-
 .article__paragraph--js{
+    font-size: 32px;
+    font-weight: 700;
+}
 
+.special{
+    color: hotpink;
+    font-weight: 900;
 }

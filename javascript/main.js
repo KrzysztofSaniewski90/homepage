@@ -13,7 +13,7 @@ console.log(`nazywam się ${name} i mam ${age} lat`)
 const header = document.querySelector('.page-header__heading--js');
 console.log('header');
 
-header.innerHTML = `nazywam się ${name} i mam ${age} lat`;
+//header.innerHTML = `nazywam się ${name} i mam ${age} lat`;
 
 
 console.log(header.style); //wyświetla style (listę wszystkich właściwości) danego elementu w konsoli;
