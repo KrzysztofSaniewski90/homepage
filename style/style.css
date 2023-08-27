@@ -73,6 +73,13 @@ p {
     color: purple;
 }
 
+.header{
+    top: 0;
+    position: sticky;
+}
+
+
+
 .navigation
 {
     width: 100%;
@@ -82,10 +89,16 @@ p {
 
 .navigation__link {
     color: white;
+    
 }
+
 
 a.navigation__link:hover{
     color:#f2ad22;
+}
+
+.navigation li{
+    display: inline-block;
 }
 
 .section{
@@ -96,7 +109,8 @@ a.navigation__link:hover{
 }
 
 .section__image{
-    max-width: 50%;
+    display: block;
+    max-width: 100%;
 }
 
 .section__header{
@@ -109,19 +123,14 @@ a.navigation__link:hover{
     color: tomato;
 }
 
-.section__header{
+.article{
+    background-color: purple;
+}
+
+.article__header{
     max-width: 60%;
     color:cadetblue;
-}
-
-.footer{
-    width: 100%;
-    
-}
-
-.footer__paragraph{
-    width: 100%;
-    padding: 16px;
+    background-color: antiquewhite;
 }
 
 .page-header__heading--js{
@@ -129,6 +138,31 @@ a.navigation__link:hover{
     align-items: baseline;
 }
 
-.article__paragraph--js{
+.footer{
+    width: 100%;
     
+}
+
+.footer__content{
+    width: 100%;
+    padding: 16px;
+}
+
+.footer__top--link{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    color: white;
+    padding: 8px 12px;
+    background-color: #f2ad22;
+    border-radius: 16px;
+    display: block;
+   
+
+}
+
+
+
+.article__paragraph--js{
+
 }
