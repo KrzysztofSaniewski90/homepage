@@ -21,3 +21,11 @@ console.log(header.style); //wyświetla style (listę wszystkich właściwości)
 header.style.color='red'; //modyfikuje kolor header-a w DOM;
 
 console.log(header.style.color); //wyświetla kolor danego elementu
+
+
+
+//praca domowa IV
+
+const injectContent = document.querySelector('.article__paragraph--js');
+console.log(injectContent);
+injectContent.innerHTML = 'JE-JE-JE-JESTEM WSZCZYKNIENTY DŻEJESEM';
