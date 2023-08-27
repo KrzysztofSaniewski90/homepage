@@ -90,3 +90,8 @@ p {
 .footer{}
 
 .footer__paragraph{}
+
+.page-header__heading--js{
+    color:darkblue;
+    align-items: baseline;
+}
