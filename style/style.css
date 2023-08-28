@@ -135,7 +135,7 @@ a.navigation__link:hover{
     background-color: purple;
 }
 
-.article__header{
+.my-article__header{
     max-width: 60%;
     color:cadetblue;
     background-color: antiquewhite;
@@ -183,3 +183,8 @@ letter-spacing: -0.2px;
     color: hotpink;
     font-weight: 900;
 }
+
+.my-article__list{
+    list-style-type: circle;
+}
+
