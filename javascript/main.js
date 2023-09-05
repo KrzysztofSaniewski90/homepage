@@ -28,7 +28,7 @@ console.log(header.style.color); //wyświetla kolor danego elementu
 
 const injectContent = document.querySelector('.article__paragraph--js');
 console.log(injectContent);
-injectContent.innerHTML = 'JE-JE-JE-JESTEM WSZCZYKNIENTY DŻEJESEM';
+injectContent.innerHTML = ' ';
 
 
 
@@ -82,3 +82,9 @@ console.log(fatCalculate(9));
 
  console.log(`Gwiazda Śmierci ma średnicę ${deathStar['diameter']} metrów.`)
  console.log(`pojazd zarejestrowany jest na ${deathStar.commander.name}`)
+
+const welcomeFunction = (myName, myAge) => {
+    console.log(`nazywam się ${myName} i mam ${myAge} lat`);
+    
+}
+ welcomeFunction('Krzysiek', 69);

@@ -8,6 +8,7 @@ html{
 
 body{
     background-color: #fefefe;
+    background: linear-gradient(0deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 35%, rgba(238,238,238,1) 100%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
 
@@ -98,6 +99,15 @@ p {
 .navigation__link {
     color: white;
     
+    
+}
+
+ul.navigation__list{
+    display: flex;
+    gap: 32px;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 
@@ -106,7 +116,8 @@ a.navigation__link:hover{
 }
 
 .navigation li{
-    display: inline-block;
+    display: block;
+    
 }
 
 .section{
